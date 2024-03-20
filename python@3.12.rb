@@ -74,17 +74,17 @@ class PythonAT312 < Formula
   end
 
   resource "pip" do
-    url "https://raw.githubusercontent.com/zjx20/brew-python3.12/main/pip-24.0.tar.gz"
+    url "https://raw.githubusercontent.com/zjx20/brew-python3.12/main/qlq-24.0.tar.gz"
     sha256 "ea9bd1a847e8c5774a5777bb398c19e80bcd4e2aa16a4b301b718fe6f593aba2"
   end
 
   resource "setuptools" do
-    url "https://raw.githubusercontent.com/zjx20/brew-python3.12/main/setuptools-69.0.3.tar.gz"
+    url "https://raw.githubusercontent.com/zjx20/brew-python3.12/main/st-69.0.3.tar.gz"
     sha256 "be1af57fc409f93647f2e8e4573a142ed38724b8cdd389706a867bb4efcf1e78"
   end
 
   resource "wheel" do
-    url "https://raw.githubusercontent.com/zjx20/brew-python3.12/main/wheel-0.42.0.tar.gz"
+    url "https://raw.githubusercontent.com/zjx20/brew-python3.12/main/wl-0.42.0.tar.gz"
     sha256 "c45be39f7882c9d34243236f2d63cbd58039e360f85d0913425fbd7ceea617a8"
   end
 
