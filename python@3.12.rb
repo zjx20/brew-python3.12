@@ -84,8 +84,8 @@ class PythonAT312 < Formula
   end
 
   resource "wheel" do
-    url "https://raw.githubusercontent.com/zjx20/brew-python3.12/main/wl-0.42.0.tar.gz"
-    sha256 "c45be39f7882c9d34243236f2d63cbd58039e360f85d0913425fbd7ceea617a8"
+    url "https://raw.githubusercontent.com/zjx20/brew-python3.12/main/mh-0.42.0.tar.gz"
+    sha256 "e2d439982e47734872eb057cb236ad413928630a6c333945b2ab6c726e2c2da4"
   end
 
   # Modify default sysconfig to match the brew install layout.
